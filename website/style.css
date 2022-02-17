@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: lavender;
+}
+.about-us{
+    width: 100%;
+}
+.about-us h1{
+    text-align: center;
+    font-size: 40px;
+    color: royalblue;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: wheat;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col:hover{
+box-shadow: 0 0 20px 0px rgba(0,0, 0, 0.2);
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
